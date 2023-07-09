@@ -1,0 +1,25 @@
+{
+  "name": "gmail-auto-replier",
+  "version": "1.0.0",
+  "description": "A Node.js based app that is able to respond to emails sent to your Gmail mailbox while you’re out on a vacation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihirpathak267/Gmail-auto-replier.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mihirpathak267/Gmail-auto-replier/issues"
+  },
+  "homepage": "https://github.com/mihirpathak267/Gmail-auto-replier#readme",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.1",
+    "dotenv": "^16.3.1",
+    "googleapis": "^120.0.0",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
